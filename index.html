@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Praktinė užduotis FE</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <div class="logo">
+                <a href="index.html"> <img src="assets\logo image.svg" alt="logo"> </a>
+                <p class="text">Portfolio</p>
+            </div>
+            <nav class="menu" id="links">
+                <a class="link" href="#projects" target="_blank">Projects</a>
+                <a class="link" href="#technologies" target="_blank">Technologies</a>
+                <a class="link" href="#about me" target="_blank">About me</a>
+            </nav>
+            <a href="javascript:void(0);" class="hamburger" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <div class="social">
+                <a class="link" href="https://github.com/scicinis" target="_blank">
+                    <img src="assets\Icon.svg" />
+                </a>
+                <a class="link" href="https://www.linkedin.com/in/scicinis/" target="_blank">
+                    <img src="assets\Linkedin.png" />
+                </a>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <h1 class="title">Lorem ipsum dolor sit amet</h1>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing <br> elit. Error dolores natus sit
+                    corporis
+                    obcaecati
+                    iure illo,<br> provident quisquam illum?</p>
+                <button>Let's begin</button>
+            </section>
+
+            <section class="projects">
+                <h2 class="title">Projects</h2>
+                <div class="project1_div">
+                    <div class="column1">
+                        <h3 class="project1_title">PROJECT&nbsp;1</h3>
+                        <p class="project_text_all3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet libero
+                            itaque ex? Quam, nulla? Magni voluptate eveniet expedita porro.</p>
+                        <button class="project1_button">Look it up</button>
+                    </div>
+                    <div class="column2">
+                        <img class="project1_img" src="assets\project1.jpg" alt="project1_img">
+                    </div>
+                </div>
+                <div class="twoProjects">
+                    <div class="project2_div">
+                        <img class="project2_img" src="assets\project2.jpg" alt="project2_img">
+                        <h3 class="project2_title">PROJECT&nbsp;2</h3>
+                        <p class="project_text_all3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet libero
+                            itaque ex? Quam, nulla? Magni voluptate eveniet expedita porro.</p>
+                        <button class="project2_button">Look it up</button>
+                    </div>
+                    <div class="project3_div">
+                        <img class="project2_img" src="assets\project2.jpg" alt="project3_img">
+                        <h3 class="project3_title">PROJECT&nbsp;3</h3>
+                        <p class="project_text_all3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet libero
+                            itaque ex? Quam, nulla? Magni voluptate eveniet expedita porro.</p>
+                        <button class="project3_button">Look it up</button>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <img class="hero_img" src="assets/hero_img.svg" alt="background">
+
+    <footer></footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("links");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
