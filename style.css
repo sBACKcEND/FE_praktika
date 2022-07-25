@@ -91,8 +91,13 @@ header a.hamburger {
     font-weight: 600;
     font-size: 55px;
     line-height: 82px;
-    color: #FFFFFF;
-} 
+    background-image: 
+url(https://media.giphy.com/media/3bc8pP1rVdfgN1uoMV/giphy-downsized-large.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+ }
 
 .hero .text {
     font-weight: 600;
@@ -101,7 +106,7 @@ header a.hamburger {
     color: #BCBCBC;
     margin-top: 80px;
     margin-bottom: 120px;
-} 
+}
 
 .hero button {
     width: 280px;
@@ -307,10 +312,10 @@ header a.hamburger {
     }
 
     .project1_title::after {
-        width: 10px;
-        height: 35%;
-        left: 20%;
-        top: 1%;
+        width: 6px;
+        height: 17%;
+        left: 48%;
+        top: -1%;
     }
     
     .project2_title::after, .project3_title::after  {
@@ -320,4 +325,11 @@ header a.hamburger {
         top: 53%;
     }
 
+    .project1_div {
+        flex-direction: column;
+    }
+
+    .project1_img {
+        width: 100%;
+    }
 }
