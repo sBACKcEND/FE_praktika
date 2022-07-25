@@ -4,7 +4,7 @@
 
 ---
 
-#### Page link: https://scicinis.github.io/FE_praktika_02/
+#### Project link: https://scicinis.github.io/FE_praktika_02/
 
 ---
 
