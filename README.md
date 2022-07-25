@@ -1,5 +1,5 @@
-# Name: FE_praktika_02
-###### Completed: 2022-07-24
+# FE_praktika_02
+##### Completed: 2022-07-24
 
 ##### html + scss
 
