@@ -1,17 +1,18 @@
-# FE_praktika_02
+# FE_praktika
 
 ---
 
 #### html + scss
-#### Completed: 2022-07-26
+#### Completed: 2022-08-01
 
 ---
 
-#### Project's link: https://scicinis.github.io/FE_praktika_02/
+#### Project's link: https://scicinis.github.io/FE_praktika/
 
 ---
 
-#### Project's screenshot:![screenshot](https://user-images.githubusercontent.com/107551364/180865238-a86fad81-501b-47c1-944e-171b8f65080b.png)
+#### Project's screenshot: ![screenshot](https://user-images.githubusercontent.com/107551364/182047516-44961b53-091b-40ce-aa45-90361b870fec.png)
+
 
 
 
