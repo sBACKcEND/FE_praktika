@@ -421,22 +421,30 @@ ul li {
 }
 
 .about_content_img {
-  width: 328px;
+  width: 300px;
   height: 100%;
-  margin-top: 90px;
+  margin-top: 100px;
   margin-bottom: -130px;
+  margin-left: 25px;
   padding-right: 80px;
   padding-bottom: 110px;
+  mix-blend-mode: darken;
 }
 
 .about_content_div {
   width: 350px;
   height: 315px;
-  background: #ffffff;
+  background: linear-gradient(
+    271.6deg,
+    #13adc7 1.52%,
+    #6978d1 67.44%,
+    #945dd6 96.85%
+  );
   box-shadow: 0px 0px 12px #ffffff;
   border-radius: 0px 250px 250px 250px;
   position: absolute;
   z-index: -1;
+  margin-top: 35px;
 }
 
 footer {
