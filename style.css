@@ -299,7 +299,7 @@ header a.hamburger {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 145px -40px 20px;
+  margin: 0px 110px -40px 20px;
 }
 
 .skills .text1 {
@@ -314,8 +314,12 @@ header a.hamburger {
   line-height: 36px;
 }
 
-.text_move {
-  margin-right: 25px;
+.regular {
+  margin-right: 35px;
+}
+
+.beginner {
+  margin-right: 20px;
 }
 
 .indicator {
