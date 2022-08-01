@@ -11,7 +11,7 @@
 
 ---
 
-#### Project's screenshot: ![screenshot](https://user-images.githubusercontent.com/107551364/182047516-44961b53-091b-40ce-aa45-90361b870fec.png)
+#### Project's screenshot: ![screenshot](https://user-images.githubusercontent.com/107551364/182090906-acc9af9f-2a4f-4d10-9432-ca032ee53757.png)
 
 
 
