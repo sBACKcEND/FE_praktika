@@ -8,7 +8,7 @@
 
 ---
 
-#### Project's link: https://sbackcend.github.io/portfolio_design_web_page/
+#### Project's link: https://sbackcend.github.io/Portfolio_design_web_page/
 
 ---
 
