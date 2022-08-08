@@ -8,7 +8,7 @@
 
 ---
 
-#### Project's link: https://scicinis.github.io/FE_praktika/
+#### Project's link: https://sbackcend.github.io/FE_praktika/
 
 ---
 
