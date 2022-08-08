@@ -8,7 +8,7 @@
 
 ---
 
-#### Project's link: https://sbackcend.github.io/FE_praktika/
+#### Project's link: https://sbackcend.github.io/portfolio_design_web_page/
 
 ---
 
