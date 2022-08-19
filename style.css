@@ -71,6 +71,10 @@ header a.hamburger {
   display: none;
 }
 
+header a.top {
+  display: none;
+}
+
 .social {
   display: flex;
 }
@@ -240,7 +244,7 @@ header a.hamburger {
   width: 500px;
   height: 100%;
   border: 1px solid #000000;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 4px 4px #00000040);
   border-radius: 0px 0px 50px 0px;
 }
 
@@ -485,12 +489,11 @@ footer .text {
 
 @media screen and (max-width: 1200px) {
   .menu {
-    position: absolute;
+    position: fixed;
     overflow: visible;
-    background-color: #333;
-    max-height: 0px;
-    transition: 0.8s ease-in;
     top: 120px;
+    left: -18px;
+    z-index: 3;
   }
 
   header {
@@ -501,9 +504,15 @@ footer .text {
     display: none;
   }
 
+  .social {
+    display: none;
+  }
+
   .menu .link {
     display: block;
+    width: 300px;
     color: white;
+    background-color: #162950;
     text-decoration: none;
     font-weight: 500;
     font-size: 24px;
@@ -514,11 +523,12 @@ footer .text {
 
   header a.hamburger {
     display: block;
-    position: absolute;
-    right: 200px;
+    position: fixed;
+    z-index: 1;
+    right: 50px;
     align-items: center;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 36px;
     color: #ffffff;
   }
