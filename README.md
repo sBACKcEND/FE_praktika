@@ -3,7 +3,7 @@
 
 ---
 
-#### html + scss
+#### html + css
 #### Completed: 2022-08-01
 
 ---
