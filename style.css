@@ -491,8 +491,8 @@ footer .text {
   .menu {
     position: fixed;
     overflow: visible;
+    width: 100%;
     top: 120px;
-    left: -18px;
     z-index: 3;
   }
 
@@ -510,14 +510,15 @@ footer .text {
 
   .menu .link {
     display: block;
-    width: 300px;
     color: white;
     background-color: #162950;
     text-decoration: none;
     font-weight: 500;
     font-size: 24px;
     line-height: 36px;
-    padding: 4px;
+    text-align: center;
+    padding: 0px;
+    opacity: 85%;
     border-bottom: 1px solid white;
   }
 
