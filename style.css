@@ -518,6 +518,7 @@ footer .text {
     line-height: 36px;
     text-align: center;
     padding: 0px;
+    margin-left: -12px;
     opacity: 85%;
     border-bottom: 1px solid white;
   }
@@ -600,6 +601,10 @@ footer .text {
     to {
       background-position: 200% center;
     }
+  }
+  
+  .about_content_img {
+  mix-blend-mode: darken;
   }
 
   .about_content {
